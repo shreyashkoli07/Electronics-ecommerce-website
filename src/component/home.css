@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+}
+.home .top_banner{
+    max-width: 100%;
+    height: 395px;
+    background: url('http://localhost:3000/image/slide-1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+.home .top_banner .contant{
+width: 100%;
+position: relative;
+top: 20%;
+padding: 10px 50px;
+}
+.home .top_banner .contant h3{
+    text-transform: uppercase;
+    color: rgb(55, 55, 136);
+}
+.home .top_banner .contant .link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home .trending {
+    padding: 20px 30px;
+    width: 100%;
+
+}
+.home .trending .container{
+    max-width: 100%;
+    display: flex;
+
+}
+.home .trending .container .left_box{
+    padding: 10px 20px;
+    width: 75%;
+
+}
+.left_box .header{
+    display: flex;
+    max-width: 100%;
+    padding: 10px;
+    background: #f6f7f8;
+    justify-content: space-between;
+
+}
+.header .heading h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    color:black
+}
+.header .cate{
+    display: flex;
+    margin-top: 5px;
+
+}
+.header .cate h3{
+text-transform: capitalize;
+margin-right: 10px;
+color: black;
+font-size: 14px;
+cursor: pointer;
+transition: 0.5s;
+
+}
+.header .cate h3:hover{
+    color:rgb(255, 96, 96);
+    
+}
+.products {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+.products .container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container .box{
+    width: 195px;
+    height: 320px;
+    /* padding: 10px 10px; */
+    border: 4px solid #f6f7f8;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: #f6f7f8;
+    overflow: hidden;
+    border-radius: 5px;
+  
+}
+.box .img_box img{
+width: 190px;
+height: 190px;
+
+object-fit: cover;
+}
+.img_box {
+    display: flex;
+}
+.img_box .icon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    margin-top: 10px;
+    transition: 0.5s;
+
+}
+.container .box:hover .img_box .icon  {
+    margin-left: -40%;
+}
+.img_box .icon .icon_box,.icon_box1,.icon_box2{
+    padding: 10px 10px ;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0,0.24) 0px 3px 8px ;
+    z-index: 1;
+    background: #ffff;
+  
+
+}
+.img_box .icon .icon_box1:hover {
+   
+    color:rgb(245, 70, 146)
+}
+
+.container .box .info{
+    padding: 10px 10px ;
+    margin-left: 10px;
+}
+.container .box .info h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:300 ;
+    letter-spacing: 1px;
+}
+.container .box .info p{
+   margin-top:5px ;
+   font-size: 14px;
+   letter-spacing: 1px;
+}
+.container .box .info button:hover{
+    color: red
+}
+.flexbox{
+    margin-top: 5px;
+}
+.flexbox img{
+    display: flex;
+  gap:10px;
+
+}
+.right_box img{
+    height: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+.right_box .newsletter{
+
+    background: #f6f7f8;
+    margin-left: -20px;
+    margin-top: 50px;
+    padding: 10px 0px;
+
+}
+.newsletter .head{
+    margin-top:10px;
+    width: 100%;
+}
+.newsletter .head h3
+{
+    text-align: center;
+    color: #232323;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.newsletter .icon_box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.form input{
+    padding: 5px;
+}
+.form p{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+        
+.home .banners1
+{
+    padding: 20px 30px;
+    width: 100%;
+}
+.banners1 .container1
+{
+    max-width: 100%;
+    display: flex;
+}
+.banners1 .container1 .left_box1
+{
+    width: 24%;
+}
+.banners1 .container1 .left_box1 .box1
+{
+    margin-top: 10px;
+}
+.banners1 .container1 .right_box1 .top
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.banners1 .container1 .right_box1 .bottom
+{
+    max-width: 100%;
+    margin-top: 10px;
+}
+.banners1 .container1 .right_box1 .bottom img
+{
+    width: 100%;
+    object-fit: cover;
+}
+.home .product_type
+{
+    padding: 40px 30px;
+    width: 100%;
+    
+
+}
+.home .product_type .container2
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* height: 400px; */
+}
+.home .product_type .container2 .box2
+{
+    width: 360px;
+    height: 500px;
+    border: 3px solid #f6f7f8;
+    overflow: scroll;
+    cursor: auto;
+}
+.home .product_type .container2 .box2 .header2
+{
+    width: 100%;
+    height: 50px;
+    background: #f6f6f6;
+    padding: 10px 10px;
+    text-align: center;
+}
+.home .product_type .containe2r .box2 .header2 h2
+{
+    color: #232323;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+   
+}
+.home .product_type .container2 .box2 .productbox2
+{
+    width: 100%;
+    /* height: 110px; */
+    padding: 20px 10px;
+    border: 1px solid #f6f7f8;
+    display: flex;
+}
+.home .product_type .container2 .box2 .productbox2 .img-box2 img
+{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.home .product_type .container2 .box2 .productbox2 .detail2
+{
+    margin-left: 30px;
+}
+.home .product_type .container2 .box2 .productbox2 .detail2 h3
+{
+    font-size: 14px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.home .product_type .container2 .box2 .productbox2 .detail2 p
+{
+    margin-top: 5px;
+    color: #cd1e76;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.home .product_type .container2 .box2 .productbox2 .detail2 .icon
+{
+    margin-top: 10px;
+    display: flex;
+}
+.home .product_type .container2 .box2 .productbox2 .detail2 .icon button
+{
+    background: none;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    border: 2px solid #f6f7f8;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: #8a8a8a;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.home .product_type .container2 .box2 .productbox2 .detail2 .icon button:hover
+{
+    background: #f6f6f6;
+    color: #232323;
+}
